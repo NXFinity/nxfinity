@@ -21,6 +21,10 @@
 /backend/dist
 /backend/.env
 
+/peer/node_modules
+/peer/dist
+/peer/.env
+
 ######################################################################
 # --------------------------- IGNORE  -------------------------------#
 # THESE ARE USED FOR IGNORING FILES AND FOLDERS THAT ARE NOT NEEDED  #
