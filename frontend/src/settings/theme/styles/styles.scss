@@ -5,21 +5,10 @@
 @include nb-install() {
   @include nb-theme-global();
 };
-
-@use '@angular/material' as mat;
-
-@import "@angular/material/theming";
 /* You can add global styles to this file, and also import other style files */
 
-html {
-  position: relative;
-  min-height: 100%; //overflow: scroll; //overflow-x: hidden;
-  ::-webkit-scrollbar {
-    width: 0;
-    background: transparent;
-  }
-}
-body {
-  margin: 0;
-  font-family: Poppins, "Helvetica Neue", sans-serif;
-}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';

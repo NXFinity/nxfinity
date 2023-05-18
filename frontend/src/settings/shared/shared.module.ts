@@ -3,14 +3,11 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { MaterialModule } from './material/material.module';
-import {NebularModule} from "./nebular/nebular.module";
-
 
 @NgModule({
   imports: [
     CommonModule,
     MaterialModule,
-    NebularModule,
     FormsModule,
     ReactiveFormsModule,
     RouterModule,
@@ -18,7 +15,6 @@ import {NebularModule} from "./nebular/nebular.module";
   exports: [
     CommonModule,
     MaterialModule,
-    NebularModule,
     FormsModule,
     ReactiveFormsModule,
     RouterModule,

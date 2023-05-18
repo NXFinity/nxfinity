@@ -1,1 +1,59 @@
-<p>login works!</p>
+<div class="w-full h-full bg-pattern flex flex-col items-center justify-center">
+  <div class="overflow-hidden w-full max-w-xs">
+    <!--| LOGO |-->
+    <div class="p-6 pb-0 flex flex-col items-center justify-center">
+      <div class="fill-current text-center">
+        <img class="w-16" src="assets/images/logo/nxie.logo.png" alt="logo">
+      </div>
+    </div>
+    <!--| HEADER |-->
+    <div class="text-center mt-4">
+      <h2 class="title m-0">Welcome back</h2>
+      <h4 class="body-2 text-secondary m-0">Login below.</h4>
+    </div>
+  </div>
+  <!--| LOGIN FORM |-->
+  <div [formGroup]="loginForm"
+       class="p-6 flex flex-col gap-4"
+        #loginNgForm="ngForm">
+    <div class="flex flex-col">
+      <!--| USERNAME |-->
+      <mat-form-field class="flex-1">
+        <mat-label>Username</mat-label>
+        <input id="username" formControlName="username" matInput #username required>
+      </mat-form-field>
+      <!--| EMAIL |-->
+      <mat-form-field class="flex-1">
+        <mat-label>Email</mat-label>
+        <input id="email" formControlName="email" matInput #email required>
+      </mat-form-field>
+      <!--| PASSWORD |-->
+      <mat-form-field class="flex-1">
+        <mat-label>Password</mat-label>
+        <input id="password" [type]="inputType" formControlName="password" matInput #password required>
+        <button (click)="toggleVisibility()" mat-icon-button matSuffix matTooltip="Toggle Visibility" type="button">
+          <mat-icon *ngIf="visible" svgIcon="visibility"></mat-icon>
+          <mat-icon *ngIf="!visible" svgIcon="visibility_off"></mat-icon>
+        </button>
+        <mat-hint>Click the eye to toggle visibility</mat-hint>
+      </mat-form-field>
+    </div>
+    <!--| FORGOT | REMEMBER |-->
+    <div class="flex items-center justify-between">
+      <mat-checkbox class="caption" color="primary" [formControlName]="'rememberMe'">Remember Me</mat-checkbox>
+      <a [routerLink]="['/forgot']" class="caption">Forgot Password?</a>
+    </div>
+    <!--| LOGIN |-->
+    <button (click)="login()"
+            color="primary"
+            mat-raised-button
+            [disabled]="loginForm.invalid || loginForm.disabled">
+      <span *ngIf="!loginForm.disabled">Login</span>
+    </button>
+    <!--| REGISTER ACCOUNT |-->
+    <p class="text-secondary text-center">
+      Don't have an account?<br/>
+      <a [routerLink]="['/register']">Click here to create one</a>
+    </p>
+  </div>
+</div>

@@ -1,28 +1,23 @@
-import { ModuleWithProviders, NgModule } from '@angular/core';
-import { SinglePageComponent } from "./layouts/single-page/single-page.component";
-import { LayoutComponent } from "./layout.component";
+import { ModuleWithProviders, NgModule } from "@angular/core";
 import { SharedModule } from "../../shared/shared.module";
+import { LayoutComponent } from "./layout.component";
+import { ThemeModule } from "../theme.module";
 
-const layoutComponents = [
-  SinglePageComponent
-];
 @NgModule({
   imports: [
     SharedModule,
+    ThemeModule,
   ],
-  exports: [
-    ...layoutComponents
-  ],
+  exports: [],
   declarations: [
-    LayoutComponent,
-    ...layoutComponents
-  ]
+    LayoutComponent
+  ],
 })
 export class LayoutModule {
   static forRoot(): ModuleWithProviders<LayoutModule> {
     return {
       ngModule: LayoutModule,
-      providers: []
-    };
+      providers: [],
+    }
   }
 }

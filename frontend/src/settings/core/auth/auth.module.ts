@@ -1,12 +1,29 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-
+import { ModuleWithProviders, NgModule } from "@angular/core";
+import { AuthService } from "./auth.service";
+import { HTTP_INTERCEPTORS } from "@angular/common/http";
+import { AuthInterceptor } from "../http/http.interceptor";
+import { SharedModule } from "../../shared/shared.module";
 
 
 @NgModule({
-  declarations: [],
   imports: [
-    CommonModule
-  ]
+    SharedModule,
+  ],
+  exports: [],
+  declarations: [],
 })
-export class AuthModule { }
+export class AuthModule {
+  static forRoot(): ModuleWithProviders<AuthModule> {
+    return {
+      ngModule : AuthModule,
+      providers: [
+        AuthService,
+        {
+          provide : HTTP_INTERCEPTORS,
+          useClass: AuthInterceptor,
+          multi   : true
+        }
+      ]
+    }
+  }
+}
