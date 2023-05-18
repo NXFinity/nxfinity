@@ -22,7 +22,7 @@ export class FrontpageComponent implements OnInit {
   private dataSource: any;
   user!: User;
 
-  buildVersion: string = '0.0.1';
+  buildVersion: string = '0.0.1t1823';
 
   constructor(private authService: AuthService,
               private userService: UserService) {

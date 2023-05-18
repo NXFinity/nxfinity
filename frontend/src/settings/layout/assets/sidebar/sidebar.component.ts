@@ -30,16 +30,16 @@ export class SidebarComponent {
     return 'Alpha.v.60e2f785';
   }
 
-  ngAfterViewInit() {
-    this.sidenavService.setSidenav(this.sideNavLeft);
-    this.observer.observe(['(max-width: 800px)']).subscribe((res) => {
-      if (res.matches) {
-        this.sideNavLeft.mode = 'over';
-        this.sideNavLeft.close().then(r => console.log(r));
-      } else {
-        this.sideNavLeft.mode = 'side';
-        this.sideNavLeft.open().then(r => console.log(r));
-      }
-    });
-  }
+  // ngAfterViewInit() {
+  //   this.sidenavService.setSidenav(this.sideNavLeft);
+  //   this.observer.observe(['(max-width: 800px)']).subscribe((res) => {
+  //     if (res.matches) {
+  //       this.sideNavLeft.mode = 'over';
+  //       this.sideNavLeft.close().then(r => console.log(r));
+  //     } else {
+  //       this.sideNavLeft.mode = 'side';
+  //       this.sideNavLeft.open().then(r => console.log(r));
+  //     }
+  //   });
+  // }
 }
