@@ -6,17 +6,14 @@
   "scripts": {
     "docs": "cd docs && hads -0",
     "-----| FRONTEND |-----": "-----| FRONTEND |-----",
-    "start": "cd frontend && npm start",
-    "build": "cd frontend && npm run build",
+    "start": "cd frontend && ng serve",
+    "build": "cd frontend && ng build",
     "-----| BACKEND |-----": "-----| BACKEND |-----",
-    "start:server": "cd backend && npm start",
-    "start:server:dev": "cd backend && npm run dev",
-    "start:server:prod": "cd backend && npm run prod",
-    "start:server:debug": "cd backend && npm run debug",
+    "start:server": "cd backend && nest start",
+    "start:server:dev": "cd backend && nest start --watch",
     "-----| PEER |-----": "-----| PEER |-----",
-    "start:peer": "cd peer && npm start",
-    "start:peer:dev": "cd peer && npm run dev",
-    "start:peer:prod": "cd peer && npm run prod"
+    "start:peer": "cd peer && nest start",
+    "start:peer:dev": "cd peer && nest start --watch"
   },
   "keywords": [],
   "author": "",
