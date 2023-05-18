@@ -45,7 +45,6 @@
     </div>
     <!--| LOGIN |-->
     <button (click)="login()"
-            color="primary"
             mat-raised-button
             [disabled]="loginForm.invalid || loginForm.disabled">
       <span *ngIf="!loginForm.disabled">Login</span>
@@ -53,7 +52,7 @@
     <!--| REGISTER ACCOUNT |-->
     <p class="text-secondary text-center">
       Don't have an account?<br/>
-      <a [routerLink]="['/register']">Click here to create one</a>
+      <a class="text-decoration-none" [routerLink]="['/register']">Click here to create one</a>
     </p>
   </div>
 </div>

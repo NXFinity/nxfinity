@@ -22,6 +22,8 @@
 .json
 # THIS IS THE MEDIA ASSETS FOLDER
 .media
+# JWT CONTSANTS
+/src/security/jwt.constants.ts
 # ----------                                              ---------- #
 
 ######################################################################

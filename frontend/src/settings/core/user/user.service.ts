@@ -43,4 +43,8 @@ export class UserService {
   updateProfileByUserId(userId: string, profile: Profile): Promise<Profile> {
     return this.httpService.patch(`${this.httpService.apiBaseUrl}/users/${userId}/profile`, {profile}).toPromise();
   }
+
+  getCurrentUser() {
+    return this.httpService.get(`${this.httpService.apiBaseUrl}/users/current`).toPromise();
+  }
 }
