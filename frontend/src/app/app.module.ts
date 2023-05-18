@@ -9,6 +9,7 @@ import { ExtraOptions, PreloadAllModules, RouterModule } from "@angular/router";
 import { CoreModule } from "../settings/core/core.module";
 import { LayoutModule } from "../settings/layout/layout.module";
 
+
 const router: ExtraOptions = {
   preloadingStrategy: PreloadAllModules,
   scrollPositionRestoration: 'enabled'
@@ -24,8 +25,9 @@ const router: ExtraOptions = {
     HttpClientModule,
     RouterModule.forRoot(appRoutes, router),
 
-    ThemeModule.forRoot(),
     LayoutModule,
+
+    ThemeModule.forRoot(),
     CoreModule.forRoot(),
   ],
   providers: [],

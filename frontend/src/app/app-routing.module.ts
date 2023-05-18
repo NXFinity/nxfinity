@@ -1,5 +1,5 @@
 import { Route } from "@angular/router";
-import { LayoutComponent } from "../settings/theme/layout/layout.component";
+import { LayoutComponent } from "../settings/layout/layout.component";
 import { AuthGuard } from "../settings/core/auth";
 
 export const appRoutes: Route[] = [
@@ -9,7 +9,7 @@ export const appRoutes: Route[] = [
     path: '',
     component: LayoutComponent,
     children: [
-
+      {path: '', loadChildren: () => import('./frontpage/frontpage.module').then(m => m.FrontpageModule)},
     ],
   },
   {
