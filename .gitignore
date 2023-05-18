@@ -1,17 +1,39 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
+######################################################################
+# THIS GITIGNORE FILE IS FOR BOTH THE FRONTEND AND BACKEND REPOS     #
+######################################################################
 
-# Compiled output
-/dist
+######################################################################
+# --------------------------- CREATE  -------------------------------#
+# THESE ARE USED FOR SECURELY STORING SENSITIVE INFORMATION IN THE   #
+# ENVIRONMENT VARIABLES, SO YOU WILL NEED TO CREATE THEM.            #
+######################################################################
+
+
+######################################################################
+# ------------------------- DONT CREATE -----------------------------#
+######################################################################
+
+/frontend/node_modules
+/frontend/dist
+/frontend/.env
+
+/backend/node_modules
+/backend/dist
+/backend/.env
+
+######################################################################
+# --------------------------- IGNORE  -------------------------------#
+# THESE ARE USED FOR IGNORING FILES AND FOLDERS THAT ARE NOT NEEDED  #
+# IN THE REPOSITORY. EVERYTHING IN THESE FILES WILL BE IGNORED.      #
+# AND ARE IGNORE DEFAULTS.                                           #
+######################################################################
 /tmp
 /out-tsc
 /bazel-out
-
-# Node
+/alpha_portal/node_modules
 /node_modules
 npm-debug.log
 yarn-error.log
-
-# IDEs and editors
 .idea/
 .project
 .classpath
@@ -19,16 +41,12 @@ yarn-error.log
 *.launch
 .settings/
 *.sublime-workspace
-
-# Visual Studio Code
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/*
-
-# Miscellaneous
 /.angular/cache
 .sass-cache/
 /connect.lock
@@ -36,7 +54,6 @@ yarn-error.log
 /libpeerconnection.log
 testem.log
 /typings
-
-# System files
 .DS_Store
 Thumbs.db
+.angular
