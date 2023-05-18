@@ -25,3 +25,7 @@ npm run docs
 - - [Cordova](frontend/cordova/README.md)
 - [Backend](backend/README.md)
 - [Peer](peer/README.md)
+
+## Running Project:
+
+All the run scripts are stored in the root package.json file. So you can run them from the root directory.
