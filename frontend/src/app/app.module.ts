@@ -7,7 +7,7 @@ import { HttpClientModule } from "@angular/common/http";
 import { ThemeModule } from "../settings/theme/theme.module";
 import { ExtraOptions, PreloadAllModules, RouterModule } from "@angular/router";
 import { CoreModule } from "../settings/core/core.module";
-import { LayoutModule } from "../settings/theme/layout/layout.module";
+import { LayoutModule } from "../settings/layout/layout.module";
 
 const router: ExtraOptions = {
   preloadingStrategy: PreloadAllModules,
@@ -25,7 +25,7 @@ const router: ExtraOptions = {
     RouterModule.forRoot(appRoutes, router),
 
     ThemeModule.forRoot(),
-    LayoutModule.forRoot(),
+    LayoutModule,
     CoreModule.forRoot(),
   ],
   providers: [],

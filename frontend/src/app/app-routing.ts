@@ -1,5 +1,5 @@
 import { Route } from "@angular/router";
-import {LayoutComponent} from "../settings/theme/layout/layout.component";
+import { LayoutComponent } from "../settings/layout/layout.component";
 
 export const appRoutes: Route[] = [
   // { path: '', redirectTo: 'home', pathMatch: 'full' },
