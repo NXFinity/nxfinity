@@ -6,12 +6,15 @@
   "scripts": {
     "docs": "cd docs && hads -0",
     "-----| FRONTEND |-----": "-----| FRONTEND |-----",
+    "npm:install": "cd frontend && npm install",
     "start": "cd frontend && ng serve",
     "build": "cd frontend && ng build",
     "-----| BACKEND |-----": "-----| BACKEND |-----",
+    "npm:install:backend": "cd backend && npm install",
     "start:server": "cd backend && nest start",
     "start:server:dev": "cd backend && nest start --watch",
     "-----| PEER |-----": "-----| PEER |-----",
+    "npm:install:peer": "cd peer && npm install",
     "start:peer": "cd peer && nest start",
     "start:peer:dev": "cd peer && nest start --watch"
   },
