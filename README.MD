@@ -29,3 +29,7 @@ npm run docs
 ## Running Project:
 
 All the run scripts are stored in the root package.json file. So you can run them from the root directory.
+
+## Project Release:
+
+All releases, will come from this repository. So you can download the latest release from here.
