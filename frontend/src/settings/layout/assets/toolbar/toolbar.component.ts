@@ -8,6 +8,10 @@ import {AuthService} from "../../../core/auth";
   styleUrls: ['./toolbar.component.scss']
 })
 export class ToolbarComponent {
+  bullion = '12'
+  followers = '123'
+  nuggets = '1234'
+
   constructor(
     private sidenav: SidebarService,
     public authService: AuthService

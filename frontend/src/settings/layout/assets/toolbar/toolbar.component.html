@@ -1,28 +1,50 @@
-<mat-toolbar>
+<mat-toolbar data-theme="synthwave">
   <div class="flex flex-column justify-content-between">
     <img (click)="toggleSidenav()" [routerLink]="'/'" alt="Logo" class="w-12 select-none" src="assets/images/logo/nxfinity-logo.png"/>
   </div>
-  <div class="container">
+    <div class="container">
     <div class="flex flex-row justify-content-between">
       <div class="flex flex-row">
         <button mat-button>Browse</button>
-        <button mat-button>Following</button>
+        <button *ngIf="authService.isAuthenticated()" mat-button>Following</button>
         <button mat-button>Top Content</button>
       </div>
     </div>
   </div>
   <div class="flex-1"></div>
-  <button mat-button>Social</button>
-  <button mat-button>Blog</button>
-  <button mat-icon-button>
-    <mat-icon svgIcon="mat_outline:language"></mat-icon>
-  </button>
-  <button *ngIf="authService.isAuthenticated" mat-icon-button routerLink="/login">
+  <div class="items-center">
+    <button *ngIf="authService.isAuthenticated()" matTooltip="Bullion" mat-button>
+      <div class="text-xs text-blue-200 flex items-center">
+        <img class="w-8 mr-2" src="assets/images/icons/crys1.png" alt="nuggets">
+        <span>{{ bullion }}</span>
+      </div>
+    </button>
+    <button *ngIf="authService.isAuthenticated()" matTooltip="Followers" mat-button>
+      <mat-icon svgIcon="fas:people-group"></mat-icon>{{ followers }}
+    </button>
+  </div>
+  <div class="flex-1"></div>
+  <button matTooltip="login || register" *ngIf="!authService.isAuthenticated()" mat-icon-button routerLink="/login">
     <mat-icon svgIcon="heroicons_solid:login"></mat-icon>
   </button>
-<!--  <div class="avatar online">-->
-<!--    <div class="w-12 rounded-full">-->
-<!--      <img src="assets/images/logo/nxie.logo.png" />-->
-<!--    </div>-->
-<!--  </div>-->
+  <div *ngIf="authService.isAuthenticated()">
+    <mat-card class="bg-transparent shadow-none justify-content-center">
+      <div class="flex flex-row items-center gap-2">
+        <div class="flex flex-col">
+          <div class="flex flex-col text-end">
+            <div class="text-sm font-semibold">Deano</div>
+            <div class="text-xs text-blue-200 flex items-center">
+              <img class="w-8 mr-2" src="assets/images/icons/bluenugs.png" alt="nuggets">
+              <span>{{ nuggets }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col avatar online">
+          <div class="w-12 rounded-full border-2">
+            <img src="assets/images/avatars/avatar-1.jpg" alt="avatar" />
+          </div>
+        </div>
+      </div>
+    </mat-card>
+  </div>
 </mat-toolbar>

@@ -11,7 +11,7 @@ import { frontpageRouting } from "./frontpage-routing";
   ],
   exports: [],
   declarations: [
-    FrontpageComponent
+    FrontpageComponent,
   ]
 })
 export class FrontpageModule { }

@@ -4,26 +4,10 @@ mat-sidenav-container {
     width: 300px;
     color: white;
     text-align: center;
+
     p {
       color: #ffffff;
       font-size: 10px;
-    }
-    .list {
-      .link {
-        color: white;
-        text-decoration: none;
-        display: block;
-        padding: 10px 0 10px 20px;
-
-        &:hover {
-          background-color: rgb(255, 60, 0);
-          color: white;
-        }
-        a:hover {
-          background-color: rgb(255, 60, 0);
-          color: white;
-        }
-      }
     }
   }
 }

@@ -1,6 +1,7 @@
-<mat-sidenav-container class="holy-grail-body">
-  <mat-sidenav *ngIf="authService.isAuthenticated()" class="holy-grail-sidebar-1 hg-sidebar mat-elevation-z8" #sideNavLeft opened="false"></mat-sidenav>
+<mat-sidenav-container class="holy-grail-body" data-theme="synthwave">
+  <mat-sidenav data-theme="synthwave" *ngIf="authService.isAuthenticated()" class="holy-grail-sidebar-1 hg-sidebar" #sideNavLeft opened="false"></mat-sidenav>
   <mat-sidenav-content class="holy-grail-content content">
     <router-outlet></router-outlet>
   </mat-sidenav-content>
+  <app-footer>12121</app-footer>
 </mat-sidenav-container>

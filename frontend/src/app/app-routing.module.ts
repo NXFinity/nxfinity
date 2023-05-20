@@ -10,6 +10,8 @@ export const appRoutes: Route[] = [
     component: LayoutComponent,
     children: [
       {path: '', loadChildren: () => import('./frontpage/frontpage.module').then(m => m.FrontpageModule)},
+      { path: 'blog', loadChildren: () => import('./blog/blog.module').then(m => m.BlogModule)},
+      { path: 'lvlup', loadChildren: () => import('./lvlup/lvlup.module').then(m => m.LvlupModule)}
     ],
   },
   {

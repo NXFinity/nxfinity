@@ -18,7 +18,7 @@ export class FrontpageComponent implements OnInit {
   user!: User;
 
   get buildVersion(): string {
-    return 'Alpha.v.60e2f785';
+    return 'Alpha.v.60g6f985';
   }
 
   constructor(private authService: AuthService,
