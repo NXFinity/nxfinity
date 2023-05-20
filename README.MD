@@ -3,5 +3,5 @@
 </div>
 
 <h4 align="center">
-  Decentralised solutions for the future
+  <a href="https://nxfinity.live">Join the future of 'Social Media'</a>
 </h4>
