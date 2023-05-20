@@ -5,10 +5,10 @@ import { RouterModule } from "@angular/router";
 import { frontpageRouting } from "./frontpage-routing";
 
 @NgModule({
-    imports: [
-        SharedModule,
-        RouterModule.forChild(frontpageRouting),
-    ],
+  imports: [
+    SharedModule,
+    RouterModule.forChild(frontpageRouting),
+  ],
   exports: [],
   declarations: [
     FrontpageComponent

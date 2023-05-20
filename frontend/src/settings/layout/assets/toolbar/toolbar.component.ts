@@ -10,7 +10,7 @@ import {AuthService} from "../../../core/auth";
 export class ToolbarComponent {
   constructor(
     private sidenav: SidebarService,
-    private authService: AuthService
+    public authService: AuthService
   ) {}
 
   toggleSidenav() {

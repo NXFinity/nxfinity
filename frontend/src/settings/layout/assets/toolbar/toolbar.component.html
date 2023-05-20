@@ -1,6 +1,6 @@
 <mat-toolbar>
   <div class="flex flex-column justify-content-between">
-    <img (click)="toggleSidenav()" [routerLink]="'/'" alt="Logo" class="w-8 select-none" src="assets/images/logo/nxie.logo.png"/>
+    <img (click)="toggleSidenav()" [routerLink]="'/'" alt="Logo" class="w-12 select-none" src="assets/images/logo/nxfinity-logo.png"/>
   </div>
   <div class="container">
     <div class="flex flex-row justify-content-between">
@@ -17,7 +17,12 @@
   <button mat-icon-button>
     <mat-icon svgIcon="mat_outline:language"></mat-icon>
   </button>
-  <button mat-icon-button routerLink="/login">
+  <button *ngIf="authService.isAuthenticated" mat-icon-button routerLink="/login">
     <mat-icon svgIcon="heroicons_solid:login"></mat-icon>
   </button>
+<!--  <div class="avatar online">-->
+<!--    <div class="w-12 rounded-full">-->
+<!--      <img src="assets/images/logo/nxie.logo.png" />-->
+<!--    </div>-->
+<!--  </div>-->
 </mat-toolbar>

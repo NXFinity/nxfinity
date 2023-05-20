@@ -1,4 +1,7 @@
-# Project: NXF | NXFinity
+<div class="center">
+  <img src="./docs/assets/images/nxfinity-banner.png" alt="NXF Logo" />
+</div>
+
 ###### Revolutionary New Cryptocurrency & Blockchain Technology
 ##### Taking the concept of cryptography to the next level
 

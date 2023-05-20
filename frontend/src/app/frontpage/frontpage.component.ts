@@ -13,27 +13,20 @@ export class FrontpageComponent implements OnInit {
 
   private _unsubscribeAll: Subject<any> = new Subject<any>();
 
-  todayNumber: number = Date.now()
   todayDate: Date = new Date()
-  todayString: string = this.todayDate.toDateString()
-  todayISOString: string = this.todayDate.toISOString()
-  todayLocaleString: string = this.todayDate.toLocaleString()
-  todayLocaleDateString: string = this.todayDate.toLocaleDateString()
   private dataSource: any;
   user!: User;
 
-  buildVersion: string = '0.0.1t1823';
+  get buildVersion(): string {
+    return 'Alpha.v.60e2f785';
+  }
 
   constructor(private authService: AuthService,
               private userService: UserService) {
   }
 
-  loggedIn() {
-    return this.authService.isAuthenticated();
-  }
-
   ngOnInit(): void {
-    this.userService.getCurrentUser().subscribe((user: User) => {
+    this.userService.getUser().subscribe(user => {
       this.user = user;
     });
   }

@@ -25,6 +25,9 @@
 /peer/dist
 /peer/.env
 
+/template
+/nsri
+
 ######################################################################
 # --------------------------- IGNORE  -------------------------------#
 # THESE ARE USED FOR IGNORING FILES AND FOLDERS THAT ARE NOT NEEDED  #
