@@ -12,9 +12,15 @@
     </div>
   </div>
   <div class="flex-1"></div>
+  <button routerLink="/lvlup" matTooltip="Level Up" mat-button>
+    <div class="text-2xl text-blue-200 flex items-center">
+      <span>LVL</span>
+      <img class="w-5 mr-2" src="assets/images/icons/lvlup.png" alt="nuggets">
+    </div>
+  </button>
   <div class="items-center">
     <button *ngIf="authService.isAuthenticated()" matTooltip="Bullion" mat-button>
-      <div class="text-xs text-blue-200 flex items-center">
+      <div class="text-blue-200 flex items-center">
         <img class="w-8 mr-2" src="assets/images/icons/crys1.png" alt="nuggets">
         <span>{{ bullion }}</span>
       </div>
