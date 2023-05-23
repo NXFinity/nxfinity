@@ -33,6 +33,6 @@ async function bootstrap() {
   // PORT
   const port = process.env.NODE_PORT || 3021;
   await app.listen(port);
-  console.log(`Application is running on: http://localhost:${port}`);
+  console.log(`Application is running on: http://localhost:${port}/v1/docs`);
 }
 void bootstrap();
