@@ -13,24 +13,24 @@
     <a src="https://github.com/NXFinity/NXF/wiki/NXF-Currency-and-NX-Tokens#nx-tokens">NX Tokens</a>
 </p>
 
-<h1 align="center">
+<h2 align="left">
   Network X Framework
-</h1>
+</h2>
 <p align="left">
   Network X Framework (NXF): An open-source framework for building decentralized applications, powered by Node.js, Nest.js, Angular, and Typescript, designed to promote a self-autonomous digital community
 </p>
 
-<h1 align="center">
+<h2 align="left">
   Vision Statement
-</h1>
+</h2>
 <p align="left">
 To revolutionize digital communities, create self-autonomous systems, and redefine the boundaries of technology through 
 decentralized applications. We envisage a world where technology empowers individuals, fosters equality, and promotes a global sense of community
 </p>
 
-<h1 align="center">
+<h2 align="left">
   Mission Statement
-</h1>
+</h2>
 <p align="left">
 Network X Framework (NXF) is committed to developing a robust, open-source, decentralized platform using cutting-edge technologies like Node.js, Nest.js, 
 Angular, and Typescript. Our mission is to empower individuals and communities by providing them with the tools to create and manage their digital 
