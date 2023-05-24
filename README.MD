@@ -8,7 +8,7 @@
 
 <p align="center">
     NXF | <a src="https://github.com/NXFinity/NXF">Network X Framework</a><br>
-    [NXF WHITEPAPER](https://github.com/NXFinity/NXF/wiki)<br>
+    <a src="https://github.com/NXFinity/NXF/wiki">NXF WHITEPAPER</a>
     <a src="https://github.com/NXFinity/NXF/wiki/NXF-Currency-and-NX-Tokens#nxf-currency">NXF Currency</a> | 
     <a src="https://github.com/NXFinity/NXF/wiki/NXF-Currency-and-NX-Tokens#nx-tokens">NX Tokens</a>
 </p>
