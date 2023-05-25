@@ -6,7 +6,7 @@
   <a href="https://nxfinity.live">Rethinking, Remodeling and Recreating Decentralised Technology</a>
 </h4>
 
-[NXF WHITEPAPER](https://github.com/NXFinity/NXF/wiki)
+[NXF WHITEPAPER](https://github.com/NXFinity/NXF/wiki) | [NXF REPO](https://github.com/NXFinity/NXF)
 
 <h2 align="left">
   Network X Framework
