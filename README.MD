@@ -1,11 +1,6 @@
-# BEAMIFY: Project BEME
+# BEAMIFY.ME: Project BEME
 ######
 
----------------------------------
-
-Update Incoming
-
----------------------------------
 
 
 
