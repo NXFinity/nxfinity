@@ -22,28 +22,10 @@ I'm passionate about blending **engineering**, **design**, and **law** to create
 
 > **Beamify** is a next-gen platform that merges collaborative tools, smart rewards, and interactive visuals into a seamless experience for creators and communities.
 
-### 🔹 Highlights
-
-- 🌆 **Dynamic Digital City**: Visualize user growth with an expanding city skyline  
-- 🎮 **Gamification Engine**: Points, levels, NFT-style badges, and a rewards pool  
-- 🧠 **Blockchain-Inspired**: Immutable point logs, Merkle Tree hashing  
-- 💬 **Nexus Chat**: Real-time communication for collaboration  
-- 📨 **Smart Payouts**: Automated reward system with email tracking  
-- 📁 **Personal Workspaces**: Every user gets a dedicated folder  
-
 ### 🛠 Built With:
 
 - **NestJS** • **PostgreSQL** • **Electron** • **TypeScript**  
 - **Redis (planned)** • **Nodemailer** • **Docker (coming soon)**
-
----
-
-## 📌 Current Focus
-
-- Finalizing the **MVP for Beamify**  
-- Enhancing **gamification logic** and **transaction security**  
-- Deploying **automated payout + notification system**  
-- Designing the **public beta onboarding experience**  
 
 ---
 
