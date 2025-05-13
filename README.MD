@@ -24,8 +24,14 @@ I'm passionate about blending **engineering**, **design**, and **law** to create
 
 ### 🛠 Built With:
 
-- **NestJS** • **PostgreSQL** • **Electron** • **TypeScript**  
-- **Redis (planned)** • **Nodemailer** • **Docker (coming soon)**
+- [Beamify Application](https://github.com/NXFinity/beamify_application) 
+- - [Next JS]() | [Tailwind]()
+- [Beamify Server](https://github.com/NXFinity/beamify_server) 
+- - [Node JS]() | [ExpressJS]() | [MongoDB]() 
+- [Beamify Chat](https://github.com/NXFinity/beamify_chat) 
+- - - [Node JS]() | [MongoDB]()
+- [Beamify Docs](https://github.com/NXFinity/beamify_docs) 
+- - [Docusaurus]()
 
 ---
 
