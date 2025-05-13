@@ -31,7 +31,7 @@ I'm passionate about blending **engineering**, **design**, and **law** to create
 
 ## 🤝 Let's Connect
 
-- 🌐 [beamify.app](https://beamify.online) *(coming soon)*  
+- 🌐 [beamify.online](https://beamify.online) *(coming soon)*  
 - 💼 [LinkedIn](https://www.linkedin.com/in/yourprofile) *(optional)*  
 - 📨 Contact: contact@beamify.online
 
