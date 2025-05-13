@@ -25,8 +25,8 @@ I'm passionate about blending **engineering**, **design**, and **law** to create
 ### 🛠 Built With:
 
 - [Beamify Application](https://github.com/NXFinity/beamify_application) - - [Next JS]() | [Tailwind]()
-- [Beamify Server](https://github.com/NXFinity/beamify_server) - - [Node JS]() | [ExpressJS]() | [MongoDB]() 
-- [Beamify Chat](https://github.com/NXFinity/beamify_chat) - - [Node JS]() | [MongoDB]()
+- [Beamify Server](https://github.com/NXFinity/beamify_server) - - [Node JS]() | [ExpressJS]() | [MongoDB]() | [Redis]() | [AirSoft]()
+- [Beamify Chat](https://github.com/NXFinity/beamify_chat) - - [Node JS]() | [MongoDB]() | [Redis]()
 - [Beamify Docs](https://github.com/NXFinity/beamify_docs) - - [Docusaurus]()
 
 ---
