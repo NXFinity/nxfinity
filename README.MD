@@ -1,5 +1,5 @@
 <h1 align="center">👋 Welcome to NXFinity</h1>
-<p align="center"><strong>Creator of Beamify — Unlocking the Future of Creativity</strong></p>
+<p align="center"><strong>Creator of METAENIX — Unlocking the Future of Creativity</strong></p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/NestJS-Framework-red?style=flat&logo=nestjs" alt="NestJS Badge"/>
