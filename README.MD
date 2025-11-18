@@ -1,5 +1,5 @@
 <h1 align="center">👋 Welcome to NXFinity</h1>
-<p align="center"><strong>Creator of Meta EN|IX — Building the Future of Social Platforms</strong></p>
+<p align="center"><strong>Creator of 'ME' - Meta EN|IX  — Building the Future of Social Platforms</strong></p>
 
 <p align="center">
   <a href="https://nestjs.com/"><img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS"></a>
@@ -47,15 +47,15 @@ I'm passionate about blending **engineering**, **design**, and **law** to create
 - ✅ Content management (posts, comments, likes, shares)
 - ✅ Developer API with OAuth 2.0 integration
 - ✅ User analytics and engagement metrics
-- ✅ Digital Ocean Spaces integration for media storage
+- ✅ Digital Ocean Spaces integration for media storage, with AWS S3 support.
 
 ### 🔗 Project Links:
 
 - 🌐 **Website:** [metaenix.com](https://metaenix.com)
-- 📖 **Documentation:** [nxfinity.github.io/enix_backend/](https://nxfinity.github.io/enix_backend/)
+- 📖 **Documentation:** [nxfinity.github.io/enix_backend/](https://nxfinity.github.io/metaenix/)
 - 💬 **Discord:** [discord.gg/ThCJ6mbaH8](https://discord.gg/ThCJ6mbaH8)
 - 🔧 **Developer Portal:** [metaenix.com/dev](https://metaenix.com/dev)
-- 📦 **Repository:** [github.com/NXFinity/enix_project](https://github.com/NXFinity/enix_project)
+- 📦 **Repository:** [github.com/NXFinity/metaenix](https://github.com/NXFinity/metaenix)
 
 ---
 
