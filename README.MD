@@ -2,12 +2,12 @@
 <p align="center"><strong>Creator of Meta EN|IX — Building the Future of Social Platforms</strong></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/NestJS-Framework-red?style=flat&logo=nestjs" alt="NestJS Badge"/>
-  <img src="https://img.shields.io/badge/Next.js-Framework-black?style=flat&logo=next.js" alt="Next.js Badge"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-Database-blue?style=flat&logo=postgresql" alt="Postgres Badge"/>
-  <img src="https://img.shields.io/badge/TypeScript-Language-blue?style=flat&logo=typescript" alt="TypeScript Badge"/>
-  <img src="https://img.shields.io/badge/Redis-Cache-red?style=flat&logo=redis" alt="Redis Badge"/>
-  <img src="https://img.shields.io/badge/ME-Production%20Ready-purple?style=flat&logo=city" alt="ME Badge"/>
+  <a href="https://nestjs.com/"><img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white" alt="NestJS"></a>
+  <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js"></a>
+  <a href="https://www.postgresql.org/"><img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"></a>
+  <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"></a>
+  <a href="https://redis.io/"><img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis"></a>
+  <a href="https://github.com/NXFinity/enix_project"><img src="https://img.shields.io/badge/Meta%20EN%7CIX-Production%20Ready-9333EA?style=flat-square" alt="Meta EN|IX"></a>
 </p>
 
 ---
