@@ -52,7 +52,7 @@ I'm passionate about blending **engineering**, **design**, and **law** to create
 ### 🔗 Project Links:
 
 - 🌐 **Website:** [metaenix.com](https://metaenix.com)
-- 📖 **Documentation:** [nxfinity.github.io/enix_backend/](https://nxfinity.github.io/metaenix/)
+- 📖 **Documentation:** [nxfinity.github.io/metaenix/](https://nxfinity.github.io/metaenix/)
 - 💬 **Discord:** [discord.gg/ThCJ6mbaH8](https://discord.gg/ThCJ6mbaH8)
 - 🔧 **Developer Portal:** [metaenix.com/dev](https://metaenix.com/dev)
 - 📦 **Repository:** [github.com/NXFinity/metaenix](https://github.com/NXFinity/metaenix)
